@@ -1,18 +1,15 @@
-h1,
-h2,
-h3,
-h4,
-ul,
-a,
-ol,
-p {
-  text-align: center;
+* {
+  background-color: black;
   font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 img {
   display: block;
-  margin: 0 auto;
 }
 
 h2,
@@ -31,10 +28,24 @@ h4 {
 
 p,
 ul,
-ol {
+ol,
+a {
   color: white;
 }
 
-* {
-  background-color: black;
+a {
+  margin-right: 20px;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+ol li {
+  margin-bottom: 20px;
+}
+
+ul,
+ol {
+  padding-left: 0;
 }
